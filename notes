@@ -1,0 +1,89 @@
+docker pull:
+    Downloads Docker images from a registry.
+
+docker run: 
+    Creates and starts a Docker container based on an image.
+
+docker build: 
+    Builds a Docker image from a Dockerfile.
+
+docker ps: 
+    Lists running Docker containers.
+
+docker stop: 
+    Stops one or more running Docker containers.
+
+docker rm: 
+    Removes one or more Docker containers.
+
+docker rmi: 
+    Removes one or more Docker images.
+
+docker exec: 
+    Runs a command inside a running Docker container.
+
+docker-compose up: 
+    Builds, (re)creates, starts, and attaches to containers for a service defined in a docker-compose.yml file.
+
+docker-compose down: 
+    Stops and removes containers, networks, volumes, and images created by docker-compose up.
+
+docker images: 
+    Lists Docker images.
+
+docker network ls: 
+    Lists Docker networks.
+
+docker volume ls: 
+    Lists Docker volumes.
+
+docker-compose logs: 
+    Views output from containers started by docker-compose up.
+
+docker-compose build: 
+    Builds Docker images as defined in a docker-compose.yml file.
+
+docker inspect: 
+    Displays detailed information about one or more Docker objects.
+
+docker-compose stop: 
+    Stops Docker containers started by docker-compose up.
+
+docker-compose restart: 
+    Restarts Docker containers started by docker-compose up.
+
+docker-compose pause: 
+    Pauses services in a Docker-compose file.
+
+docker-compose unpause: 
+    Unpauses services in a Docker-compose file.
+
+docker-compose exec: 
+    Executes a command in a running Docker container specified in a docker-compose.yml file.
+
+docker-compose pull: 
+    Pulls images for services defined in a docker-compose.yml file.
+
+docker-compose push: 
+    Pushes images for services defined in a docker-compose.yml file.
+
+docker-compose down -v: 
+    Removes containers, networks, volumes, and images defined in a docker-compose.yml file.
+
+docker save: 
+    Saves Docker images to a tar archive.
+
+docker load: 
+    Loads Docker images from a tar archive.
+
+docker attach: 
+    Attaches to a running container.
+
+docker cp: 
+    Copies files or folders between a container and the local filesystem.
+
+docker login: 
+    Logs in to a Docker registry.
+
+docker logout: 
+    Logs out from a Docker registry.
